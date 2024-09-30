@@ -13,3 +13,7 @@ output "vpc_id_details" {
 # output "default_route_table_info" {
 #   value = module.vpc.dafault_route_table_id
 # }
+
+output "sg_details" {
+  value = module.mysql_test.sg_details
+}

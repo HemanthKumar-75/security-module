@@ -1,5 +1,6 @@
 module "mysql_test" {
-  source = "git::https://github.com/HemanthKumar-75/terraform-aws-security-group.git?ref=main"
+  # source = "git::https://github.com/HemanthKumar-75/terraform-aws-security-group.git?ref=main"
+  source = "../terraform-aws-security-group"
   envinronment = var.envinronment
   project_name = var.project
   security_group = "Mysql"
