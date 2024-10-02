@@ -15,5 +15,5 @@ output "vpc_id_details" {
 # }
 
 output "sg_details" {
-  value = module.mysql_test.sg_details
+  value = module.mysql_sg.sg_details
 }
